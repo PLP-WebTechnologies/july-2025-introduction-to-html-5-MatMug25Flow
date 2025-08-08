@@ -1,1 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="HTML5 + Accessibility & SEO Basics: web development practices and modern HTML5 techniques for building accessible, SEO-friendly websites.">
+    <meta name="keywords" content="web development, HTML5, accessibility, SEO, sustainable coding, semantic markup">
+    <meta name="author" content="Mathew Mugambi">
+    <title>HTML5 Best Practices - Sustainable Web Development</title>
+</head>
+<body>
+    <header>
+        <h1>HTML5 + Accessibility & SEO Basics</h1>
+        <p>Building accessible, machine readable and search-friendly websites with HTML5</p>
+    </header>
 
+    <nav aria-label="Main navigation">
+        <h2>Navigation Pane - Each hyperlink once cliked will take to the section it reperesnts.</h2>
+        <ul>
+            <li><a href="#introduction">Introduction</a></li>
+            <li><a href="#semantic-html">Semantic HTML</a></li>
+            <li><a href="#accessibility">Accessibility</a></li>
+            <li><a href="#seo-basics">SEO Basics</a></li>
+            
+        </ul>
+    </nav>
+
+    <main>
+        <section id="introduction" aria-labelledby="intro-heading">
+            <h2 id="intro-heading">Introduction to Modern Web Development</h2>
+            <p>Using HTML5, we can create websites that serve several purposes. Being SEO friendly, easy for human beings to comprehend and use. This is part of my week 1 assignment and should demonstrate the importance of a proper markup structure.</p>
+
+            <h3>Why Semantic HTML Matters</h3>
+            <p>Semantic HTML provides meaning to your content structure, making it easier for screen readers, search engines, and other technologies to understand and process your web pages effectively.</p>
+        </section>
+
+        <section id="semantic-html" aria-labelledby="semantic-heading">
+            <h2 id="semantic-heading">Understanding Semantic HTML5 Elements</h2>
+            
+            <article>
+                <h3>Essential Semantic Elements</h3>
+                <p>HTML5 introduced several semantic elements that help structure content meaningfully:</p>
+                
+                <h4>Document Structure Elements</h4>
+                <dl>
+                    <dt>Header</dt>
+                    <dd>Contains introductory content and navigation aids for a page or section</dd>
+                    
+                    <dt>Navigation</dt>
+                    <dd>Represents a section of navigation links to other pages or parts within the page</dd>
+                    
+                    <dt>Main</dt>
+                    <dd>Represents the dominant content of the document body</dd>
+                    
+                    <dt>Article</dt>
+                    <dd>Represents a standalone piece of content that could be distributed independently</dd>
+                    
+                    <dt>Section</dt>
+                    <dd>Represents a thematic grouping of content with a heading</dd>
+                    
+                    <dt>Footer</dt>
+                    <dd>Contains information about its nearest sectioning content or root element</dd>
+                </dl>
+            </article>
+
+            <aside aria-labelledby="tip-heading">
+                <h3 id="tip-heading">Pro Tip</h3>
+                <p>Always use semantic elements based on meaning, not appearance. Screen readers and search engines rely on proper semantic structure to understand your content hierarchy.</p>
+            </aside>
+        </section>
+
+        <section id="accessibility" aria-labelledby="accessibility-heading">
+            <h2 id="accessibility-heading">Accessibility Best Practices</h2>
+            
+            <article>
+                <h3>Making Content Accessible</h3>
+                <p>Accessibility ensures that your website can be used by people with disabilities. Here are key practices to implement:</p>
+                
+                <h4>Essential Accessibility Features</h4>
+                <ul>
+                    <li>Use proper heading hierarchy (h1, h2, h3, etc.)</li>
+                    <li>Provide alt text for images</li>
+                    <li>Use descriptive link text</li>
+                    <li>Ensure proper color contrast</li>
+                    <li>Make forms accessible with labels</li>
+                    <li>Use ARIA attributes when necessary</li>
+                </ul>
+
+                <h4>ARIA Landmarks</h4>
+                <p>ARIA (Accessible Rich Internet Applications) attributes help assistive technologies understand page structure and navigation patterns.</p>
+            </article>
+        </section>
+
+        <section id="seo-basics" aria-labelledby="seo-heading">
+            <h2 id="seo-heading">SEO Fundamentals</h2>
+            
+            <article>
+                <h3>On-Page SEO Techniques</h3>
+                <p>Search Engine Optimization starts with proper HTML structure and meaningful content organization:</p>
+                
+                <h4>Key SEO Elements</h4>
+                <ol>
+                    <li><strong>Title Tags:</strong> Descriptive and unique for each page</li>
+                    <li><strong>Meta Descriptions:</strong> Compelling summaries that encourage clicks</li>
+                    <li><strong>Heading Structure:</strong> Logical hierarchy using h1-h6 tags</li>
+                    <li><strong>Alt Text:</strong> Descriptive text for images</li>
+                    <li><strong>Internal Linking:</strong> Connecting related content within your site</li>
+                </ol>
+
+                <h4>Content Guidelines</h4>
+                <p>Create high-quality, original content that provides value to your users. Search engines prioritize content that answers user questions and provides comprehensive information on topics.</p>
+            </article>
+        </section> 
+    </main>
+
+    <footer>
+        
+        
+        <p><small>&copy; 2025 Mathew Mugambi.</small></p>
+        
+        <nav aria-label="Footer navigation">
+            <h3>Quick Links</h3>
+            <ul>
+                <li><a href="#introduction">Back to Top</a></li>
+        
+            </ul>
+        </nav>
+    </footer>
+</body>
+</html>
